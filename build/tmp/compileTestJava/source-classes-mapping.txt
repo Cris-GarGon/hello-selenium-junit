@@ -1,0 +1,8 @@
+com/example/hello_selenium_junit/MainPageTest.java
+ com.example.hello_selenium_junit.MainPageTest
+com/example/hello_selenium_junit/ImdbTest.java
+ com.example.hello_selenium_junit.ImdbTest
+com/example/hello_selenium_junit/SearchTest.java
+ com.example.hello_selenium_junit.SearchTest
+com/example/hello_selenium_junit/RobobarTest.java
+ com.example.hello_selenium_junit.RobobarTest

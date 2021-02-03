@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.hello_selenium_junit.RobobarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-03T14:19:48" hostname="ubuntu" time="11.68">
+  <properties/>
+  <testcase name="qt3()" classname="com.example.hello_selenium_junit.RobobarTest" time="11.68"/>
+  <system-out><![CDATA[total= vars.get(total).toString()
+total = vars.get(total).toString()
+total = vars.get(total).toString()
+]]></system-out>
+  <system-err><![CDATA[1612361989239	geckodriver	INFO	Listening on 127.0.0.1:20437
+1612361990092	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7tDAqk"
+*** You are running in headless mode.
+
+(firefox:49457): GLib-GObject-WARNING **: 15:19:50.914: invalid (NULL) pointer instance
+
+(firefox:49457): GLib-GObject-CRITICAL **: 15:19:50.915: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:49688): GLib-GObject-WARNING **: 15:19:51.907: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:49688): GLib-GObject-CRITICAL **: 15:19:51.907: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(/usr/lib/firefox/firefox:49704): GLib-GObject-WARNING **: 15:19:52.132: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:49704): GLib-GObject-CRITICAL **: 15:19:52.132: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/usr/lib/firefox/firefox:49775): GLib-GObject-WARNING **: 15:19:54.699: invalid (NULL) pointer instance
+
+(/usr/lib/firefox/firefox:49775): GLib-GObject-CRITICAL **: 15:19:54.699: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+1612361994808	Marionette	INFO	Listening on port 38203
+1612361994886	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 03, 2021 3:19:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1612361998692	Marionette	INFO	Stopped listening on port 38203
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 573: NotFoundError: No such JSWindowActor 'MarionetteCommands'
+]]></system-err>
+</testsuite>
