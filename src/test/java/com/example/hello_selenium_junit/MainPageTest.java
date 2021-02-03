@@ -5,7 +5,11 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.*;
+import org.openqa.selenium.JavascriptExecutor;
 
+import java.util.HashMap;
+
+import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 import static org.junit.jupiter.api.Assertions.*;
 
 import static com.codeborne.selenide.Condition.attribute;
@@ -38,6 +42,7 @@ public class MainPageTest {
         $(byClassName("js-search-input")).shouldHave(attribute("value", "Selenium"));
     }
 
+    /*
     @Test
     public void toolsMenu() {
         mainPage.toolsMenu.hover();
@@ -52,5 +57,5 @@ public class MainPageTest {
         $(byClassName("products-list")).shouldBe(visible);
 
         assertEquals("All Developer Tools and Products by JetBrains", Selenide.title());
-    }
+    }*/
 }
