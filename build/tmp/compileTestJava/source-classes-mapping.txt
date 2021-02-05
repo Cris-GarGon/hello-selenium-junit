@@ -6,3 +6,9 @@ com/example/hello_selenium_junit/RobobarTest.java
  com.example.hello_selenium_junit.RobobarTest
 com/example/hello_selenium_junit/MainPageTest.java
  com.example.hello_selenium_junit.MainPageTest
+com/example/hello_selenium_junit/ImdbRemoteTest.java
+ com.example.hello_selenium_junit.ImdbRemoteTest
+com/example/hello_selenium_junit/RobobarRemoteTest.java
+ com.example.hello_selenium_junit.RobobarRemoteTest
+com/example/hello_selenium_junit/SearchRemoteTest.java
+ com.example.hello_selenium_junit.SearchRemoteTest
