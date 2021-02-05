@@ -32,6 +32,7 @@ public class ImdbRemoteTest {
     private WebDriver driver;
     private Map<String, Object> vars;
     JavascriptExecutor js;
+
     @BeforeEach
     public void setUp() throws MalformedURLException {
 
