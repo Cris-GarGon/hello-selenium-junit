@@ -8,6 +8,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -26,9 +27,9 @@ public class SearchRemoteTest {
     JavascriptExecutor js;
     @BeforeEach
     public void setUp() throws MalformedURLException {
-        FirefoxOptions firefoxOptions = new FirefoxOptions();
-        driver = new RemoteWebDriver(new
-                URL("http://localhost:4444/wd/hub"), firefoxOptions);
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setBrowserName(System.getProperty("browser", "firefox"));
+        driver = new RemoteWebDriver(new URL ("http://localhost:4444/wd/hub"), capabilities);
 
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();

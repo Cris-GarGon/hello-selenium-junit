@@ -32,13 +32,11 @@ public class ImdbRemoteTest {
     private WebDriver driver;
     private Map<String, Object> vars;
     JavascriptExecutor js;
-
     @BeforeEach
     public void setUp() throws MalformedURLException {
-
-        FirefoxOptions firefoxOptions = new FirefoxOptions();
-        driver = new RemoteWebDriver(new
-                URL("http://localhost:4444"), firefoxOptions);
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setBrowserName(System.getProperty("browser", "firefox"));
+        driver = new RemoteWebDriver(new URL ("http://localhost:4444/wd/hub"), capabilities);
 
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();
