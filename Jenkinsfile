@@ -23,7 +23,7 @@ pipeline {
                     recordIssues(
                         enabledForFailure: true, 
                         aggregatingResults: true, 
-                        tool: checkStyle(pattern: 'config/checkstyle/checkstyle.xml')
+                        tool: checkStyle(pattern: 'checkstyle.xml')
                     )
                 }
             }
