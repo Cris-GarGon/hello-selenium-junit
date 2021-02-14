@@ -1,8 +1,26 @@
-com/example/hello_selenium_junit/ImdbTest.java
- com.example.hello_selenium_junit.ImdbTest
-com/example/hello_selenium_junit/SearchTest.java
- com.example.hello_selenium_junit.SearchTest
-com/example/hello_selenium_junit/RobobarTest.java
- com.example.hello_selenium_junit.RobobarTest
 com/example/hello_selenium_junit/MainPageTest.java
  com.example.hello_selenium_junit.MainPageTest
+com/example/hello_selenium_junit/ImdbTest.java
+ com.example.hello_selenium_junit.ImdbTest
+com/example/hello_selenium_junit/RobobarTest.java
+ com.example.hello_selenium_junit.RobobarTest
+com/example/hello_selenium_junit/RobobarTestRemoteOpera.java
+ com.example.hello_selenium_junit.RobobarTestRemoteOpera
+com/example/hello_selenium_junit/SearchTest.java
+ com.example.hello_selenium_junit.SearchTest
+com/example/hello_selenium_junit/ImdbTestRemoteOpera.java
+ com.example.hello_selenium_junit.ImdbTestRemoteOpera
+com/example/hello_selenium_junit/SearchTestRemoteFirefox.java
+ com.example.hello_selenium_junit.SearchTestRemoteFirefox
+com/example/hello_selenium_junit/ImdbTestRemoteFirefox.java
+ com.example.hello_selenium_junit.ImdbTestRemoteFirefox
+com/example/hello_selenium_junit/ImdbTestRemoteChrome.java
+ com.example.hello_selenium_junit.ImdbTestRemoteChrome
+com/example/hello_selenium_junit/RobobarTestRemoteChrome.java
+ com.example.hello_selenium_junit.RobobarTestRemoteChrome
+com/example/hello_selenium_junit/SearchTestRemoteOpera.java
+ com.example.hello_selenium_junit.SearchTestRemoteOpera
+com/example/hello_selenium_junit/SearchTestRemoteChrome.java
+ com.example.hello_selenium_junit.SearchTestRemoteChrome
+com/example/hello_selenium_junit/RobobarTestRemoteFirefox.java
+ com.example.hello_selenium_junit.RobobarTestRemoteFirefox
